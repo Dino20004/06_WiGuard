@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wiguard"
+version = "1.0.0"
+description = "AI-Powered WiFi Evil Twin Detection CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "WiGuard Contributors"}
+]
+keywords = ["wifi", "security", "evil-twin", "rogue-ap", "network"]
+dependencies = [
+    "rich",
+    "colorama",
+    "tabulate",
+    "mac-vendor-lookup",
+    "psutil",
+    "requests"
+]
+
+[project.scripts]
+wiguard = "wiguard.main:main"
