@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wiguard"
+version = "1.0.0"
+description = "AI-Powered WiFi Evil Twin Detection CLI Tool"
+readme = "README.md"
+authors = [
+    { name = "Dino20004", email = "dino20004@example.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "rich>=13.0.0",
+    "tabulate>=0.9.0",
+    "requests>=2.31.0",
+    "psutil>=5.9.0",
+]
+
+[project.scripts]
+wiguard = "main:main"
+
+[tool.setuptools]
+py-modules = ["main", "wiguard"]
+packages = ["scanner", "detector", "database", "reports", "utils", "cli", "config"]
