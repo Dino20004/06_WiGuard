@@ -35,15 +35,20 @@ Developed by **Dino20004**.
 ## Installation
 
 ```bash
-git clone https://github.com/Dino20004/WiGuard.git
-cd WiGuard
-pip install .
+git clone https://github.com/Dino20004/06_WiGuard.git
+cd 06_WiGuard
+python -m venv venv
+call venv\Scripts\activate
+pip install -e .
+wiguard version
 ```
 
 For development:
 ```bash
 pip install -r requirements.txt
 python main.py version
+python main.py diag
+python main.py scan --simulate
 ```
 
 ---
