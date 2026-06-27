@@ -4,6 +4,8 @@ AI-Powered WiFi Evil Twin Detection CLI.
 
 Developed by **Dino20004**.
 
+<img width="1904" height="695" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/64ff19d6-a459-41ee-9c8c-1696d6cc6cec" />
+
 ---
 
 ## Features
