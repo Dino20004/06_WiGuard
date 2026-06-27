@@ -1,6 +1,0 @@
-{
-  "scan_interval": 5,
-  "risk_threshold": 50,
-  "log_enabled": true,
-  "database_path": "trusted_networks.db"
-}
