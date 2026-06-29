@@ -4,7 +4,7 @@ AI-Powered WiFi Evil Twin Detection CLI.
 
 Developed by **Dino20004**.
 
-<img width="1904" height="695" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/64ff19d6-a459-41ee-9c8c-1696d6cc6cec" />
+<img width="534" height="253" alt="Screenshot (147)1" src="https://github.com/user-attachments/assets/4e59bdf7-87e8-4f34-862d-d6ba911ba3cd" />
 
 ---
 
@@ -52,6 +52,7 @@ python main.py version
 python main.py diag
 python main.py scan --simulate
 ```
+<img width="1151" height="404" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/67b71665-4929-472c-8c3e-d9d3ef04e710" />
 
 ---
 
